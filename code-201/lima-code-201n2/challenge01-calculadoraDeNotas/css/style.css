@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #076c71;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.notas {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notas h2 {
+    margin-top: 0;
+}
+
+.form-notas {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-notas label {
+    margin-bottom: 10px;
+}
+
+.form-notas input[type="number"] {
+    padding: 10px;
+    border: 1px solid
+}
